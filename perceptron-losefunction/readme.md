@@ -150,3 +150,43 @@ Hinge loss introduces **margin**:
 # ⚙️ Example
 
 If:
+y = 1
+prediction = 0.8
+
+\[
+Loss = max(0, 1 - 0.8) = 0.2
+\]
+
+Model is correct but not confident enough.
+
+---
+
+# 📌 When to Use?
+
+Use Hinge Loss when:
+
+- Building SVM models
+- Need margin maximization
+- Want better generalization
+
+---
+
+# ⭐ Advantages
+
+- Improves over perceptron
+- Encourages confident predictions
+- Works well with SVM
+- Handles misclassification better
+
+---
+
+# ⚠ Disadvantages
+
+- Not differentiable at margin = 1
+- Sensitive to outliers
+
+---
+
+# 🔥 Key Takeaway
+
+> Perceptron focuses on correct classification, while Hinge Loss goes further by penalizing predictions that are not confidently correct, helping create a better decision boundary.
