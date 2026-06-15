@@ -291,7 +291,6 @@ Avoid excessive dropout when:
 | Neurons Removed | Yes | No |
 | Normalization | No | Yes |
 | Regularization Effect | Strong | Moderate |
-
 ---
 
 # 🔥 Key Takeaway
